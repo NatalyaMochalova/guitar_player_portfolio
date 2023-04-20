@@ -376,6 +376,10 @@ table {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  height: 69px;
+}
+.main-section__logo {
+  width: 134px;
 }
 
 .nav-menu__list {
