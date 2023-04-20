@@ -1,6 +1,12 @@
 @import "normalizez.scss"
 @import "resets.scss"
 
+*
+  box-sizing: border-box
+
+$color-blue: #5290EA
+$color-orange: #F28B64
+
 .container
   max-width: 1140px
   margin: 0 auto
@@ -27,3 +33,42 @@
     font-size: 18px
     &:last-child
       margin-right: 0
+
+.left-wrapper
+  position: relative
+  &__img
+    position: relative
+    z-index: 5
+  &__rectangle
+    &_color_blue
+      position: absolute
+      z-index: 3
+      top: 147px
+      left: -47px
+    &_color_orange
+      position: absolute
+      z-index: 4
+      top: 160px
+      left: -30px
+    &_color_grey
+      position: absolute
+      z-index: 2
+      top: 203px
+      left: 17px
+
+.rectangle
+  border-radius: 100px
+  height: 220px
+  width: 610px
+  box-shadow: 0 4px 4px rgba(0, 0, 0, .25)
+  background: #E2E2E2
+  &_color_blue
+    width: 565px
+    background: $color-blue
+    transform: rotate(-64deg)
+  &_color_orange
+    width: 618px
+    background: $color-orange
+    transform: rotate(-50.81deg)
+  &_color_grey
+    transform: rotate(-36.15deg)
