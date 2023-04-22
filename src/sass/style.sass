@@ -11,6 +11,7 @@ $color-orange: #F28B64
   max-width: 1140px
   margin: 0 auto
 
+/* ПЕРВАЯ СЕКЦИЯ */
 .main-section
   position: relative
   background-color: #F0F0F0
@@ -146,3 +147,66 @@ $color-orange: #F28B64
     font-size: 16px
     line-height: 105.19%
 
+/* ВТОРАЯ СЕКЦИЯ */
+.second-section
+  position: relative
+  min-height: 700px
+  padding-top: 32px
+  &__title
+    margin-bottom: 40px
+  &__cards-box
+    display: inline-flex
+    gap: 30px
+    margin-bottom: 25px
+  &__icons-box
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-evenly
+  &__first-elipse
+    position: absolute
+    z-index: -1
+    top: 50px
+    right: 55px
+  &__second-elipse
+    position: absolute
+    z-index: -1
+    top: 364px
+    left: 70px
+
+.cards-item
+  position: relative
+  width: 360px
+  height: 360px
+  filter: drop-shadow(0 4px 4px rgba(0, 0, 0, .25))
+  background: #E2E2E2
+  border-radius: 10px
+  display: flex
+  align-items: flex-end
+  &__img
+    height: 335px
+  &__text
+    position: absolute
+    top: 145px
+    right: -45px
+    width: 280px
+    font-size: 36px
+    line-height: 44px
+    text-align: center
+    transform: rotate(90deg)
+  &_orange
+    background: $color-orange
+  &_blue
+    background: $color-blue
+
+.icons-item
+  display: inline-flex
+  align-items: center
+  gap: 20px
+  &__img
+    width: 80px
+  &__text
+    font-size: 18px
+    line-height: 22px
+  &__span
+    font-size: 48px
+    line-height: 59px
