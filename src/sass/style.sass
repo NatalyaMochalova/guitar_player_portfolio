@@ -121,6 +121,8 @@ $color-orange: #F28B64
     border-top: 1px solid #000
     margin: 0
     bottom: 0
+    &_top
+      bottom: 70px
 
 .buttons
   display: inline-flex
@@ -210,3 +212,37 @@ $color-orange: #F28B64
   &__span
     font-size: 48px
     line-height: 59px
+
+/* ТРЕТЬЯ СЕКЦИЯ */
+.third-section
+  position: relative
+  min-height: 640px
+  background: #F0F0F0
+  z-index: -2
+  overflow: hidden
+  &__container
+    display: flex
+    flex-direction: row
+    align-items: center
+    justify-content: space-between
+    padding: 46px 19px 46px 167px
+  &__left-wrapper
+    position: relative
+  &__title
+    margin-bottom: 20px
+  &__text
+    max-width: 480px
+    margin-bottom: 30px
+    font-size: 18px
+    line-height: 22px
+  &__circles
+    position: absolute
+    z-index: -1
+    top: -110px
+    right: 70px
+  &__big-elipse
+    position: absolute
+    top: -120px
+    right: -120px
+    width: 282px
+    height: 282px
