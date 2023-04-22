@@ -477,12 +477,6 @@ table {
   margin-bottom: 1px;
   padding-left: 10px;
 }
-.right-wrapper__icon {
-  margin-right: 17px;
-}
-.right-wrapper__icon:last-child {
-  margin-right: 0;
-}
 .right-wrapper__title {
   margin-bottom: 5px;
 }
@@ -490,6 +484,13 @@ table {
   font-size: 16px;
   line-height: 20px;
   margin-bottom: 20px;
+}
+
+.icons__item {
+  margin-right: 17px;
+}
+.icons__item:last-child {
+  margin-right: 0;
 }
 
 .title {
@@ -657,4 +658,23 @@ table {
   right: -120px;
   width: 282px;
   height: 282px;
+}
+
+/* ФУТЕР */
+.footer {
+  position: relative;
+}
+.footer__container {
+  min-height: 272px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.footer__img {
+  position: absolute;
+  left: -50px;
+  bottom: 0;
+}
+.footer__title {
+  margin-bottom: 20px;
 }/*# sourceMappingURL=style.css.map */
