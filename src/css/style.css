@@ -366,6 +366,23 @@ table {
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "MontserratT";
+  src: url("../fonts/Montserrat-Regular.ttf");
+  font-weight: regular;
+  font-style: normal;
+}
+@font-face {
+  font-family: "MontserratT";
+  src: url("../fonts/Montserrat-SemiBold.ttf");
+  font-weight: bold;
+  font-style: normal;
+}
+html {
+  font-family: "MontserratT";
+  font-weight: regular;
+}
+
 .container {
   max-width: 1140px;
   margin: 0 auto;
@@ -414,6 +431,7 @@ table {
 .nav-menu__list-item {
   margin-right: 64px;
   font-size: 18px;
+  font-weight: bold;
 }
 .nav-menu__list-item:last-child {
   margin-right: 0;
@@ -497,6 +515,7 @@ table {
   position: relative;
   font-size: 72px;
   line-height: 68px;
+  font-weight: bold;
 }
 .title__hr {
   position: absolute;
@@ -526,6 +545,7 @@ table {
   padding: 11px 24px;
   margin-right: 32px;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  font-weight: bold;
 }
 .buttons__icon-btn {
   display: inline-flex;
@@ -581,6 +601,7 @@ table {
   border-radius: 10px;
   display: flex;
   align-items: flex-end;
+  font-weight: bold;
 }
 .cards-item__img {
   height: 335px;
@@ -617,6 +638,7 @@ table {
 .icons-item__span {
   font-size: 48px;
   line-height: 59px;
+  font-weight: bold;
 }
 
 /* ТРЕТЬЯ СЕКЦИЯ */
